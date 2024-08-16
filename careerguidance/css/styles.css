@@ -1,0 +1,114 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Global Styles */
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+  }
+  
+  .container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    color: #333;
+    
+  }
+  
+  /* Header Styles */
+  header {
+    color: #333;
+    padding: 25px 0;
+    float: center;
+    margin: 50px;
+  }
+  
+  header h1 {
+    float: center;
+  }
+
+  .section {
+    flex: 10px;
+    font-size: 40px;
+  } 
+  .btn {
+    float: right;
+    position: relative;
+      box-sizing: border-box;
+      display: inline-block;
+      overflow: hidden;
+      padding: 8px 20px;
+      margin: 0px 3px 6px;
+      text-align: center;
+      border: 2px solid rgb(48, 47, 47);
+      text-decoration: none;
+      color: black(255, 255, 255);
+      white-space: nowrap;
+      z-index: 0;
+  }
+  .btn:hover{
+      background-color: #c192f1;
+      
+      color: #080808;
+  }
+  .btn2 {
+  float: right;
+  position: relative;
+      box-sizing: border-box;
+      display: inline-block;
+      overflow: hidden;
+      padding: 8px 20px;
+      margin: 0px 3px 6px;
+      text-align: center;
+      border: 2px solid rgb(48, 48, 47);
+      text-decoration: none;
+      color: black(255, 255, 255);
+      white-space: nowrap;
+      z-index: 0;
+  }
+  .btn2:hover{
+      background-color: #c192f1;
+      color: #080808;
+  }
+  
+  
+  nav ul {
+    float: left;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-left: 25px;
+  }
+  
+  nav ul li a {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  
+  .btn1 {
+    float: center;
+    position: relative;
+    overflow: hidden;
+    padding: 8px 20px;
+    margin: 0px 3px 6px;
+    text-align: center;
+    color: black(255, 255, 255);
+    white-space: nowrap;
+    z-index: 0;
+    margin-bottom: 500px;
+  }
+ 
+  .container21 {
+    width: 80%;
+    margin-top: 100px;
+    overflow: hidden;
+    float:center;
+    
+  }
+  

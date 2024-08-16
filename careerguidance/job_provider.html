@@ -1,0 +1,62 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Job Provider Form</title>
+   
+  <link rel="stylesheet" href="css/style2.css">
+</head>
+<style>
+   body
+    {
+    background-image: url('pics/b.jpg');
+    background-size: cover; /* Cover the entire background */
+    background-repeat: no-repeat; /* Prevent the background image from repeating */
+    background-attachment: fixed; /* Keep the background image fixed while scrolling */
+    font-family: Arial, sans-serif;
+    }
+    </style>
+<body>
+
+      <h1>welcome</h1>
+      <h1>Job Provider Form</h1>
+      <form id="jobForm" action="job details.html" method="POST">
+        <label for="companyname">Company Name:</label>
+        <input type="text" id="companyname" name="companyname" required><br>
+
+        <label for="jobTitle">Job Title:</label>
+        <input type="text" id="jobTitle" name="jobTitle" required><br>
+
+        <label for="jobrequirements">Job Requirements:</label>
+        <input type="text" id="jobrequirements" name="jobrequirements" required><br>
+
+        <label for="qualification and skills">Qualification&Skills:</label>
+        <input type="text" id="qualification and skills" name="QualificationandSkills" required><br>
+
+        <label for="joblocation">Job Location:</label>
+        <input type="text" id="joblocation" name="jobLocation" required><br>
+
+        <label for="jobDescription">Job Description:</label>
+        <textarea id="jobDescription" name="jobDescription" rows="4" required></textarea><br>
+
+        <label for="jobType">Job Type:</label>
+        <select id="jobType" name="jobType" required>
+            <option value="">Select a job type</option>
+            <option value="full stack development">Full stack developer</option>
+            <option value="DevOps Engineer">DevOps Engineer</option>
+            <option value="Technical lead">technical Lead</option>
+            <option value="internship">Internship</option>
+            <option value="Data Scientist">Data Scientist</option>
+            <option value="UI/UX designer">UI/UX designer</option>
+            <option value="App Developer">App Developer</option>
+            <option value="Engineering Manager">Engineering Manager</option>
+        </select><br>
+
+        <input type="submit" value="Submit">
+    </form>        
+<script src="javascript/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,28 @@
+html, body {
+    font-family: Arial, sans-serif; /* Set font family to Arial with a fallback of generic sans-serif */
+ }
+  
+/* Apply styles to box */
+.box {
+    background-color: #f9f9f9; /* Light gray background */
+    padding: 20px; /* Add padding to the box */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a slight shadow */
+    margin-bottom: 20px; /* Add bottom margin for spacing */
+    font-family: Arial, sans-serif; 
+ }
+ 
+ /* Apply styles to button inside the box */
+ .box-btn {
+    padding: 10px 20px; /* Add padding for button */
+    background-color: #c192f1; /* Set background color to blue */
+    color: #fff; /* Set text color to white */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Add some border radius for rounded corners */
+    cursor: pointer; /* Change cursor to pointer on hover */
+ }
+ 
+ .box-btn:hover {
+    background-color: #c192f1; /* Darken background color on hover */
+ }
+ 

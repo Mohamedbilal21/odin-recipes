@@ -1,0 +1,52 @@
+/* Apply styles to form container */
+#jobForm {
+    max-width: 600px; /* Limit form width */
+    margin: 0 auto; /* Center the form horizontally */
+    padding: 20px; /* Add some padding to the form */
+    background-color: #f9f9f9; /* Light gray background */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a slight shadow */
+  }
+  
+  /* Apply styles to form labels */
+  label {
+    display: block; /* Display labels as block elements */
+    margin-bottom: 5px; /* Add some bottom margin for spacing */
+    font-weight: bold; /* Make labels bold */
+  }
+  
+  /* Apply styles to form inputs */
+  input[type="text"],
+  textarea,
+  select {
+    width: 100%; /* Make inputs full width */
+    padding: 8px; /* Add padding for readability */
+    margin-bottom: 15px; /* Add some bottom margin for spacing */
+    border: 1px solid #ccc; /* Add a border */
+    border-radius: 5px; /* Add some border radius for rounded corners */
+    box-sizing: border-box; /* Ensure padding and border are included in width */
+  }
+  
+  /* Apply styles to submit button */
+  input[type="submit"] {
+    width: auto; /* Auto width for submit button */
+    padding: 10px 20px; /* Add padding for button */
+    background-color: #c192f1; /* Set background color to blue */
+    color: #fff; /* Set text color to white */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Add some border radius for rounded corners */
+    cursor: pointer; /* Change cursor to pointer on hover */
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #c192f1; /* Darken background color on hover */
+  }
+  
+  /* Apply styles to form headings */
+  h1 {
+    text-align: center; /* Center align heading */
+    margin-bottom: 30px; /* Add some bottom margin for spacing */
+  }
+  
+ 
+  
